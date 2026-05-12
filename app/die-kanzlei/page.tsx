@@ -8,7 +8,7 @@ export default function DieKanzlei() {
   return (
     <>
       {/* ── Page header with Ken Burns city image ── */}
-      <section className="relative h-[70vh] min-h-[500px] overflow-hidden flex items-end">
+      <section className="relative h-[56vw] md:h-[70vh] min-h-[260px] md:min-h-[500px] overflow-hidden flex items-end">
         {/* Ken Burns via CSS animation — compositor-driven, no JS jank */}
         <div className="absolute inset-0 animate-kenburns">
           <Image
