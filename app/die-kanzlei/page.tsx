@@ -12,7 +12,7 @@ export default function DieKanzlei() {
         {/* Ken Burns via CSS animation — compositor-driven, no JS jank */}
         <div className="absolute inset-0 animate-kenburns">
           <Image
-            src="/stadt2.png"
+            src="/city.png"
             fill
             sizes="100vw"
             quality={90}
