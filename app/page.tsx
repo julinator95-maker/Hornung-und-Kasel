@@ -164,7 +164,7 @@ export default function Home() {
                 areas: [
                   "Familienrecht",
                   "Baurecht (privates)",
-                  "Strafrecht & Ordnungswidrigkeiten",
+                  "Strafrecht und Ordnungswidrigkeitenrecht",
                   "Straßenverkehrsrecht",
                   "Versicherungsrecht",
                 ],
@@ -174,7 +174,7 @@ export default function Home() {
                 title: "Rechtsanwalt",
                 image: "/kasel.png",
                 areas: [
-                  "Strafrecht & Ordnungswidrigkeiten",
+                  "Strafrecht und Ordnungswidrigkeitenrecht",
                   "Migrationsrecht",
                   "Mietrecht",
                   "Arbeitsrecht",
