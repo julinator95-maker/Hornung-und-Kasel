@@ -52,11 +52,11 @@ export default function Kontakt() {
                   <p>Walramsneustraße 9 · D-54290 Trier</p>
                   <p>
                     Tel:{" "}
-                    <a href="tel:+4965148057" className="text-zinc-300 hover:text-white transition-colors">
-                      +49 651 48057
+                    <a href="tel:+4965148055" className="text-zinc-300 hover:text-white transition-colors">
+                      +49 651 48055
                     </a>
                   </p>
-                  <p>Fax: +49 651 48055</p>
+                  <p>Fax: +49 651 48057</p>
                   <p>
                     <a
                       href="mailto:info@hornung-kasel.de"
@@ -82,8 +82,8 @@ export default function Kontakt() {
                   <p>Walramsneustraße 9 · D-54290 Trier</p>
                   <p>
                     Tel:{" "}
-                    <a href="tel:+4916083408 10" className="text-zinc-300 hover:text-white transition-colors">
-                      +49 160 8340810
+                    <a href="tel:+491608540810" className="text-zinc-300 hover:text-white transition-colors">
+                      +49 160 854 08 10
                     </a>
                   </p>
                   <p>Fax: +49 651 48057</p>

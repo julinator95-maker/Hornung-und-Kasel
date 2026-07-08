@@ -42,8 +42,8 @@ export default function Impressum() {
               Kontakt
             </h2>
             <p>
-              Telefon: <a href="tel:+496514855" className="hover:text-zinc-200 transition-colors">+49 651 480 55</a><br />
-              Fax: +49 651 480 57<br />
+              Telefon: <a href="tel:+4965148055" className="hover:text-zinc-200 transition-colors">+49 651 48055</a><br />
+              Fax: +49 651 48057<br />
               E-Mail: <a href="mailto:info@hornung-kasel.de" className="hover:text-zinc-200 transition-colors">info@hornung-kasel.de</a>
             </p>
           </div>

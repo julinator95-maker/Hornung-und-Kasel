@@ -13,9 +13,10 @@ export default function Home() {
     offset: ["start start", "end start"],
   });
 
-  /* Hero content stays fully visible until 80% scroll, then fades out */
-  const heroOpacity = useTransform(scrollYProgress, [0.8, 1.0], [1, 0]);
-  const heroY = useTransform(scrollYProgress, [0, 1], ["0%", "15%"]);
+  /* Hero content drifts up and fades out early, so it clears the viewport
+     before the next section scrolls in (no overlap on mobile) */
+  const heroOpacity = useTransform(scrollYProgress, [0.15, 0.55], [1, 0]);
+  const heroY = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
   /* Justitia moves at 40% of scroll speed — slower = deeper parallax depth */
 
   const justitiaY = useTransform(scrollYProgress, [0, 1], ["0px", "-250px"]);
@@ -33,7 +34,7 @@ export default function Home() {
         <motion.div style={{ y: justitiaY }} className="absolute inset-0 pointer-events-none">
           {/* Mobile: portrait image */}
           <Image
-            src="/justitia-neu.png.png"
+            src="/justitia-neu.png"
             fill
             sizes="100vw"
             className="md:hidden object-cover object-center opacity-[0.28]"
@@ -178,7 +179,7 @@ export default function Home() {
                   "Migrationsrecht",
                   "Mietrecht",
                   "Arbeitsrecht",
-                  "Schaden- & Haftpflichtrecht",
+                  "Schaden- und Haftpflichtrecht",
                 ],
               },
             ].map((lawyer, i) => (

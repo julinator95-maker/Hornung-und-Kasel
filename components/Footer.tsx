@@ -59,10 +59,10 @@ export default function Footer() {
               Walramsneustraße 9<br />
               D-54290 Trier<br /><br />
               <a
-                href="tel:+4965148057"
+                href="tel:+4965148055"
                 className="hover:text-zinc-300 transition-colors duration-200"
               >
-                +49 651 48057
+                +49 651 48055
               </a>
               <br />
               <a
